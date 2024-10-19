@@ -1,6 +1,9 @@
 #include <stdio.h>
 
+#include "speaker.h"
+
 int main() {
-    printf("Hello, World!\n");
+    say("Hello, world!");
+    say("Goodbye, world!");
     return 0;
 }
